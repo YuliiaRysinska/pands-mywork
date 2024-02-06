@@ -2,3 +2,9 @@
 # in the form -9.44 (9 dollars and 44 cent), the issue there may or may not be a
 # minus sign, and the bank takes in the amount in cent, (944). Write a program
 # called convert.py that takes in a float amount of dollars and returns that absolute amount in cent
+
+
+#!!!!!! error !!!!
+number = float(input("Enter a number:"))
+absolute_value = abs(number)
+print('The absolute value of {} is {}'.format(number, absolute_value))
