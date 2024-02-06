@@ -1,6 +1,6 @@
-#create program "Hello"
+#8. create program "Hello"
 print("Hello, Yuliia")
 
-#create program multiply.py
+# 9.create program multiply.py
 answer = 111 * 555
 print(answer)
