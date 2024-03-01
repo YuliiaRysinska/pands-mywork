@@ -1,4 +1,4 @@
-#
+#Write a function that prints out a menu of commands we can perform, ie add, view and quit. The function should return what the user chose
 
 def displayMenu():
     print("What would you like to do?")
@@ -9,8 +9,8 @@ def displayMenu():
 
     return choice
 #test the function
-choice = displayMenu()
-print(f"you chose {choice}")
+#choice = displayMenu()
+# print(f"you chose {choice}")
 
 def doAdd():
     # we fill this in later
