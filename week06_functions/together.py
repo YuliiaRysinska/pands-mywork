@@ -42,19 +42,19 @@ def doView(students):
 
 
 
-
+import studentUtil as su
 #main program
 students = []
-choice = displayMenu()
+choice = su.displayMenu()
 while(choice != 'q'):
     # we could do this with lamda functions
     # I am keeping this basic for the moment
     if choice == 'a':
-        doAdd(students)
+        su.doAdd(students)
     elif choice == 'v':
-        doView(students)
+        su.doView(students)
     elif choice !='q':
         print("\n\nplease select either a,v or q")
-    choice=displayMenu()
+    choice=su.displayMenu()
         
         

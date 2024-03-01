@@ -4,6 +4,7 @@
 import studentUtil as su
 
 students = []
+
 choice = su.displayMenu()
 while(choice != 'q'):
  # we could do this with lamda functions
@@ -14,5 +15,5 @@ while(choice != 'q'):
     su.doView(students)
  elif choice !='q':
    print("\n\nplease select either a,v or q")
-   choice = su.displayMenu()
+ choice = su.displayMenu()
    
