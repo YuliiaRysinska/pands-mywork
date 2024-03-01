@@ -1,3 +1,4 @@
+#
 def displayMenu():
     print("What would you like to do?")
     print("\t(a) Add new student")
